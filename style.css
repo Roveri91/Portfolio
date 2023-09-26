@@ -13,7 +13,7 @@
     --fw-reg: 300;
     --fw-bold: 900;
 
-    --clr-light: #fff;
+    --clr-light: #bfcbc7;
     --clr-dark: #303030;
     --clr-accent: #9AFFE1;
 
@@ -212,11 +212,6 @@ header {
     opacity: 0;
 }
 
-
-
-
-
-
 .hamburger {
     display: block;
     position: relative;
@@ -264,9 +259,9 @@ header {
         width: min-content;
         margin: 0 auto;
         grid-column-gap: 1em;
-        grid-template-areas: 
+        grid-template-areas:
             "img title"
-            "img subtilte";        
+            "img subtilte";
         grid-template-columns: min-content max-content;
     }
 
@@ -314,11 +309,11 @@ header {
     margin: 0.5em auto 1em;
     background: var(--clr-light);
     opacity: 0.25;
-} 
+}
 
 .services {
     margin-bottom: 4em;
-} 
+}
 
 .service {
     max-width: 500px;
@@ -352,11 +347,11 @@ header {
     .about-me {
         display: grid;
         grid-template-columns: 1fr 200px;
-        grid-template-areas: 
+        grid-template-areas:
             "title img"
             "subtitle img"
             "text img";
-        grid-column-gap: 2em;    
+        grid-column-gap: 2em;
     }
 
     .section__title--about {
@@ -396,6 +391,18 @@ header {
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    position: relative;
+}
+
+.portfolio__item p{
+  position: absolute;
+  top: 37%;
+  right: 35%;
+  color: var(--clr-accent);
+  text-decoration: none;
+  font-family: var(--ff-primary);
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 .portfolio__img {
@@ -420,7 +427,7 @@ header {
 
 .footer {
   background: #111;
-  color: var(--clr-accent);  
+  color: var(--clr-accent);
   text-align: center;
   padding: 2.5em 0;
   font-size: var(--fs-h3);
