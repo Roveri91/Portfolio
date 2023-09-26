@@ -16,6 +16,7 @@
     --clr-light: #bfcbc7;
     --clr-dark: #303030;
     --clr-accent: #9AFFE1;
+    --clr-project: #28302e;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -394,15 +395,16 @@ header {
     position: relative;
 }
 
-.portfolio__item p{
+.portfolio__text{
   position: absolute;
+  width: 100%;
   top: 37%;
-  right: 35%;
-  color: var(--clr-accent);
+  color: var(--clr-project);
   text-decoration: none;
   font-family: var(--ff-primary);
   font-size: 2rem;
   font-weight: 900;
+  text-shadow: 1px 1px 2px var(--clr-accent);
 }
 
 .portfolio__img {
