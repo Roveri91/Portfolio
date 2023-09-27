@@ -484,6 +484,7 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 500;
 }
 
 .portfolio-item-individual h3 {
@@ -496,14 +497,31 @@ header {
 
 .copy-link{
   display: flex;
-  width: 80%;
+  margin: auto;
+  width: 70%;
+  padding: 10px;
 }
 
 .copy-link-input, .copy-link-button {
   color: var(--clr-light);
   background-color: var(--clr-dark);
+  padding: 0.4rem 1rem;
 }
 
 .copy-link-input{
   flex-grow: 1;
+  border: 1 solid var(--clr-light);
+  border-right: none;
+  outline: none;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.copy-link-button{
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  cursor: pointer;
 }
