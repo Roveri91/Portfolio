@@ -490,3 +490,20 @@ header {
   text-align: center;
   margin-bottom: 2rem;
 }
+
+
+/* copy field */
+
+.copy-link{
+  display: flex;
+  width: 80%;
+}
+
+.copy-link-input, .copy-link-button {
+  color: var(--clr-light);
+  background-color: var(--clr-dark);
+}
+
+.copy-link-input{
+  flex-grow: 1;
+}
