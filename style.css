@@ -437,7 +437,7 @@ header {
 }
 
 .footer a {
-    color: inherit;
+    color: var(--clr-accent);
     text-decoration: none;
 }
 
@@ -525,4 +525,11 @@ header {
   outline: none;
   border-radius: 0 0.5rem 0.5rem 0;
   cursor: pointer;
+}
+
+.portfolio-link-web{
+  text-decoration: none;
+  font-family: inherit;
+  color: var(--clr-accent);
+  text-shadow: 2px 2px 2px black;
 }
