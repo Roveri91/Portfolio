@@ -506,11 +506,12 @@ header {
   color: var(--clr-light);
   background-color: var(--clr-dark);
   padding: 0.4rem 1rem;
+  border: 1 solid var(--clr-light);
 }
 
 .copy-link-input{
   flex-grow: 1;
-  border: 1 solid var(--clr-light);
+  /* border: 1 solid var(--clr-light); */
   border-right: none;
   outline: none;
   border-radius: 0.5rem 0 0 0.5rem;

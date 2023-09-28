@@ -9,7 +9,6 @@
         <link type="text/css" rel="stylesheet" href="style.css" />
         <!--  fonts-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
 
     </head>
@@ -52,29 +51,50 @@
             <div>
               <h3>⚙️ Setup</h3>
               <p>Install gems</p>
+
               <div class="copy-link">
-                <input type="text" class="copy-link-input" value="bundle install">
-                <button type="button" class="copy-link-button"><span class="material-icons">
-                  content_copy
-                  </span></i></button>
+                <input type="text" class="copy-link-input" value="bundle install" readonly>
+                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
               </div>
-              <p>
-                bundle install
-                ENV Variables Create .env file
 
-                touch .env
-                Inside .env, set these variables. For any APIs, see group Slack channel.
+              <p>ENV Variables</p>
+              <p>Create .env file</p>
 
-                CLOUDINARY_URL=your_own_cloudinary_url_key
-                DB Setup
+              <div class="copy-link">
+                <input type="text" class="copy-link-input" value="touch .env" readonly>
+                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
+              </div>
 
-                rails db:create
-                rails db:migrate
-                rails db:seed
+              <p>Inside .env, set these variables. For any APIs, see group Slack channel.</p>
 
-                Run a server
+              <div class="copy-link">
+                <input type="text" class="copy-link-input" value="CLOUDINARY_URL=your_own_cloudinary_url_key" readonly>
+                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
+              </div>
 
-                rails s
+              <p>DB Setup</p>
+
+              <div class="copy-link">
+                <input type="text" class="copy-link-input" value="rails db:create" readonly>
+                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
+              </div>
+              <div class="copy-link">
+                <input type="text" class="copy-link-input" value="rails db:migrate" readonly>
+                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
+              </div>
+              <div class="copy-link">
+                <input type="text" class="copy-link-input" value="rails db:seed" readonly>
+                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
+              </div>
+
+
+
+              <p>Run a server</p>
+
+              <div class="copy-link">
+                <input type="text" class="copy-link-input" value="rails s" readonly>
+                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
+              </div>
 
               </p>
             </div>
