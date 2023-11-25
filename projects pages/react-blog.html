@@ -52,41 +52,29 @@
 
             <div>
               <h3>Setup</h3>
-              <p>Install gems</p>
+              <p>In the project directory, you can run:</p>
 
               <div class="copy-link">
-                <input type="text" class="copy-link-input" value="bundle install" readonly>
+                <input type="text" class="copy-link-input" value="npm start" readonly>
                 <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
               </div>
 
-              <p>DB Setup</p>
+              <p>Runs the app in the development mode.
+                Open http://localhost:3000 to view it in your browser.</p>
 
-              <div class="copy-link">
-                <input type="text" class="copy-link-input" value="rails db:create" readonly>
-                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
-              </div>
-              <div class="copy-link">
-                <input type="text" class="copy-link-input" value="rails db:migrate" readonly>
-                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
-              </div>
-              <div class="copy-link">
-                <input type="text" class="copy-link-input" value="rails db:seed" readonly>
-                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
-              </div>
+              <h3>DB Setup</h3>
 
-              <p>Run a server</p>
-
+              <p>Runs the database on the localhost:8000 to have acces to pre-built blogs</p>
               <div class="copy-link">
-                <input type="text" class="copy-link-input" value="rails s" readonly>
+                <input type="text" class="copy-link-input" value="npx json-server --watch data/db.json --port 8000" readonly>
                 <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
               </div>
             </div>
 
             <div>
               <h3>Usage</h3>
-              <p>User: are created randomly so check the DB</p>
-              <p>PW: "123456" for all users</p>
-              <p>Github Repo: <a class="portfolio-link-web" target="_blank" href="https://github.com/Roveri91/restaurants-api">API.repo</a></p>
+
+              <p>Github Repo: <a class="portfolio-link-web" target="_blank" href="https://github.com/Roveri91/simple-blog">Simple-blog.repo</a></p>
             </div>
         </div>
 
