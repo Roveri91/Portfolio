@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Roveri Portfolio</title>
+        <link type="text/css" rel="stylesheet" href="../style.css" />
+        <!--  fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <!-- <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet"> -->
+
+
+    </head>
+    <body>
+        <header>
+        <div class="logo">
+            <img src="../img/logo.png" alt="LOGO">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+        </header>
+
+            <!--  Introduction  -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                <strong>QR Code</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Connects future parents in Japan</p>
+            <img src="../img/qrcode/qrcode.png" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <div>
+              <h3>Overview</h3>
+              <p>Our team has developed a mobile app designed to assist future parents in finding the best clinic based on various criteria.</p>
+              <p>Tokyo Glow allows all the future parents to find them ideal clinic, get daily information
+              about them current pregnancy and get in contact with other users</p>
+              <p>Additionally, our app allows users to check upcoming events and add them to their own calendars.</p>
+            </div>
+
+            <div>
+              <h3>Setup</h3>
+              <p>Install gems</p>
+
+              <div class="copy-link">
+                <input type="text" class="copy-link-input" value="bundle install" readonly>
+                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
+              </div>
+
+              <p>ENV Variables</p>
+              <p>Create .env file</p>
+
+              <div class="copy-link">
+                <input type="text" class="copy-link-input" value="touch .env" readonly>
+                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
+              </div>
+
+              <p>Inside .env, set these variables. For any APIs, see group Slack channel.</p>
+
+              <div class="copy-link">
+                <input type="text" class="copy-link-input" value="CLOUDINARY_URL=your_own_cloudinary_url_key" readonly>
+                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
+              </div>
+
+              <p>DB Setup</p>
+
+              <div class="copy-link">
+                <input type="text" class="copy-link-input" value="rails db:create" readonly>
+                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
+              </div>
+              <div class="copy-link">
+                <input type="text" class="copy-link-input" value="rails db:migrate" readonly>
+                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
+              </div>
+              <div class="copy-link">
+                <input type="text" class="copy-link-input" value="rails db:seed" readonly>
+                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
+              </div>
+
+              <p>Run a server</p>
+
+              <div class="copy-link">
+                <input type="text" class="copy-link-input" value="rails s" readonly>
+                <button type="button" class="copy-link-button"><span class="material-icons">content_copy</span></i></button>
+              </div>
+            </div>
+
+            <div>
+              <h3>Usage</h3>
+              <p>Github Repo: <a class="portfolio-link-web" target="_blank" href="https://github.com/Roveri91/TokyoGlow">TokyoGlow.repo</a></p>
+              <p>HomePage: <a class="portfolio-link-web" target="_blank" href="http://www.tokyoglow.site/">TokyoGlow.site</a></p>
+              <p>User: peach@gmail.com</p>
+              <p>PW: 123456</p>
+            </div>
+        </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+          <a href="mailto:simoneroverijob@gmail.com" class="footer__link">simoneroverijob@gmail.com</a>
+            <ul class="social-list">
+              <li class="social-list__item">
+                  <a class="social-list__link" target="_blank" href="https://github.com/Roveri91">
+                      <i class="fab fa-github"></i>
+                  </a>
+              </li>
+              <li class="social-list__item">
+                  <a class="social-list__link" target="_blank" href="https://www.linkedin.com/in/simone-roveri/">
+                      <i class="fab fa-linkedin-in"></i>
+                  </a>
+              </li>
+            </ul>
+        </footer>
+
+        <script src="sketch.js"></script>
+
+    </body>
+</html>
